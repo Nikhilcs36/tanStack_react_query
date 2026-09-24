@@ -17,7 +17,6 @@ export function useTreatments(): Treatment[] {
     queryKey: [queryKeys.treatments],
     queryFn: getTreatments,
   }); 
-  
   return treatments;
 }
 
